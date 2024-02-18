@@ -34,7 +34,7 @@ function Home2() {
               Whether you're a fellow enthusiast, a potential collaborator, or just someone curious to learn more,
                I hope you'll find inspiration as you explore my work. I am a highly skilled and innovative Mechatronics Engineer with a passion for integrating 
                mechanical, electrical, and computer engineering principles to develop cutting-edge systems and technologies. With a solid background in engineering 
-               and a keen problem-solving mindset, I excels in designing, prototyping, and optimizing complex mechatronic systems.4
+               and a keen problem-solving mindset, I excels in designing, prototyping, and optimizing complex mechatronic systems.
                <br />
                <br />
               <i>

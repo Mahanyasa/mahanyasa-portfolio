@@ -1,13 +1,13 @@
 html {
   --section-background-color: linear-gradient(to bottom left,
-      rgba(53, 123, 85, 0.582),
+      rgba(78, 88, 89, 0.582),
       rgba(12, 8, 24, 0.904));
 
   --image-gradient: linear-gradient(to bottom left,
-      rgba(53, 123, 85, 0.678),
+      rgba(78,88,89, 0.678),
       rgba(12, 10, 22, 0.863));
 
-  --imp-text-color: #59CE8F;
+  --imp-text-color: #6dbf4c;
 }
 
 .purple {
@@ -93,7 +93,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #59CE8F !important;
+  background-color: #6dbf4c !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -192,7 +192,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #59CE8F;
+  background: #6dbf4c;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -293,18 +293,18 @@ button:focus {
 }
 
 .main-name {
-  color: #59CE8F;
+  color: #6dbf4c;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #59CE8F !important;
+  color: #6dbf4c !important;
   font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #59CE8F !important;
+  color: #6dbf4c !important;
 }
 
 @media (max-width: 767px) {
@@ -386,7 +386,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #59CE8F;
+  background: #6dbf4c;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -394,13 +394,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #59CE8F;
+  box-shadow: 0 0 15px #6dbf4c;
 }
 
 .home-social-icons:hover {
   color: #3E9064 ;
-  box-shadow: 0 0 5px #59CE8F;
-  text-shadow: 0 0 2px #59CE8F;
+  box-shadow: 0 0 5px #6dbf4c;
+  text-shadow: 0 0 2px #6dbf4c;
 }
 
 .social-icons {
@@ -410,7 +410,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #59CE8F !important;
+  color: #6dbf4c !important;
 }
 
 /* --------- */
@@ -567,8 +567,8 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #59CE8F !important;
-  border-color: #59CE8F !important;
+  background-color: #6dbf4c !important;
+  border-color: #6dbf4c !important;
 }
 
 .btn-primary:hover {
@@ -706,7 +706,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #59CE8F;
+  border-left: 2px solid #6dbf4c;
   position: relative;
 }
 
@@ -743,7 +743,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #59CE8F;
+  border: 2px solid #6dbf4c;
 }
 
 .like-item {
@@ -798,8 +798,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #59CE8F !important;
-  border-color: #59CE8F !important;
+  background-color: #6dbf4c !important;
+  border-color: #6dbf4c !important;
 }
 
 .fork-btn-inner::after {

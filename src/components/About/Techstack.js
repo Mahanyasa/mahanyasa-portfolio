@@ -14,8 +14,10 @@ import {
   SiC,
 } from "react-icons/si";
 import { TbBrandKotlin  } from "react-icons/tb";
-import { FaHtml5,
-  FaCss3Alt, } from "react-icons/fa";
+import { 
+  FaHtml5,
+  FaCss3Alt,
+  FaAngular,   } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -34,6 +36,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />

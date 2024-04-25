@@ -9,6 +9,7 @@ function Type() {
           "Software Developer",
           "Full Stack Developer",
           "Mechatronics Developer",
+          "Android App Developer",
         ],
         autoStart: true,
         loop: true,

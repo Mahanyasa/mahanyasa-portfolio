@@ -10,6 +10,7 @@ function Type() {
           "Full Stack Developer",
           "Mechatronics Developer",
           "Android App Developer",
+          "Data Analytics",
         ],
         autoStart: true,
         loop: true,

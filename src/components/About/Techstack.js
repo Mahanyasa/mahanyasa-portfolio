@@ -12,6 +12,7 @@ import {
 import {
   SiFirebase,
   SiC,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandKotlin  } from "react-icons/tb";
 import { 
@@ -39,6 +40,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />

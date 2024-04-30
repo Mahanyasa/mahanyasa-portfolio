@@ -18,7 +18,7 @@ jobs:
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
-  
+jobs:
   Production:
     runs-on: ubuntu-latest
     steps:

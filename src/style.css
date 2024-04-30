@@ -28,7 +28,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: --image-gradient;
+  background-color: #4e5859ad;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;

@@ -4,9 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { 
-  CgGitFork,
-  CgLogIn,   } from "react-icons/cg";
+import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -14,6 +12,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
+import { TiCloudStorageOutline } from "react-icons/ti";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -94,13 +93,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/Login"
+                to="/login"
                 onClick={() => updateExpanded(false)}
               >
-                <CgLogIn 
+                <TiCloudStorageOutline 
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Login
+                Storage
               </Nav.Link>
             </Nav.Item>
 

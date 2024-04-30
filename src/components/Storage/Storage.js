@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Particle from "../Particle";
 import { auth } from "../../firebase";
 import styles from "./Storage.css";
 import { CgLogIn } from "react-icons/cg";
@@ -13,7 +12,7 @@ function Storage() {
         onAuthStateChanged(auth, (user) => {
             if (user) {
                 auth().signOut();
-                navigate("/");
+                navigate("/Login");
             }
         });
     }

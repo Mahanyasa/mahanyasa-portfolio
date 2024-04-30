@@ -9,6 +9,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { CiCoffeeCup } from "react-icons/ci";
 
 function Home2() {
   return (
@@ -21,30 +22,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Welcome to my official portfolio website, where I'm excited to share my journey in Mechatronics and 
-              Computer Science Engineering with you.  
-              This platform is a showcase of the projects and accomplishments that have shaped my career and 
+              Welcome to my official portfolio website, where I'm excited to share my journey in Mechatronics and
+              Computer Science Engineering with you.
+              This platform is a showcase of the projects and accomplishments that have shaped my career and
               passion in these two fascinating fields.
               <br />
               <br />
               <i>
                 <b className="purple">  Whether you're a fellow enthusiast, a potential collaborator, or just someone curious to learn more,
-               I hope you'll find inspiration as you explore my work. </b>
+                  I hope you'll find inspiration as you explore my work. </b>
               </i>
               <br />
               <br />
               Whether you're a fellow enthusiast, a potential collaborator, or just someone curious to learn more,
-               I hope you'll find inspiration as you explore my work. I am a highly skilled and innovative Mechatronics Engineer with a passion for integrating 
-               mechanical, electrical, and computer engineering principles to develop cutting-edge systems and technologies. With a solid background in engineering 
-               and a keen problem-solving mindset, I excels in designing, prototyping, and optimizing complex mechatronic systems.
-               <br />
-               <br />
+              I hope you'll find inspiration as you explore my work. I am a highly skilled and innovative Mechatronics Engineer with a passion for integrating
+              mechanical, electrical, and computer engineering principles to develop cutting-edge systems and technologies. With a solid background in engineering
+              and a keen problem-solving mindset, I excels in designing, prototyping, and optimizing complex mechatronic systems.
+              <br />
+              <br />
               <i>
-                <b className="purple">I am a skilled and dynamic Computer 
-               Science Engineer with a deep understanding of computer systems, programming languages, and software development. With a strong academic background and 
-               practical experience.</b>
+                <b className="purple">I am a skilled and dynamic Computer
+                  Science Engineer with a deep understanding of computer systems, programming languages, and software development. With a strong academic background and
+                  practical experience.</b>
               </i>
-              
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -98,6 +99,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.buymeacoffee.com/Mahanyasak"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <CiCoffeeCup />
                 </a>
               </li>
             </ul>

@@ -28,7 +28,7 @@ function Login() {
       .then(async (res) => {
         setSubmitButtonDisabled(false);
         
-        navigate("/");
+        navigate("/Storage");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);
@@ -62,12 +62,6 @@ function Login() {
           <button disabled={submitButtonDisabled} onClick={handleSubmission}>
             Login
           </button>
-          <p>
-            Already have an account?{" "}
-            <span>
-              <Link to="/signup">Sign up</Link>
-            </span>
-          </p>
         </div>
       </div>
     </div>

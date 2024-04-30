@@ -11,15 +11,17 @@ env:
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
   
 jobs:
-  Deploy:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
-jobs:
-  Production:
+  production:
+    name: Production
+    needs: deploy
     runs-on: ubuntu-latest
     steps:
       - name: Pull Vercel Environment Information

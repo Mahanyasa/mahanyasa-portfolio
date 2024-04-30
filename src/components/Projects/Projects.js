@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import ams from "../../Assets/Projects/ams.gif";
 import amsa from "../../Assets/Projects/amsa.gif";
 import esa from "../../Assets/Projects/esa.gif";
@@ -20,7 +19,6 @@ import shap from "../../Assets/Projects/shap.gif";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

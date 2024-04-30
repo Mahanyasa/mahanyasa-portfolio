@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
-
 import InputControl from "../InputControl/InputControl";
 import { auth } from "../../firebase";
-
+import { CgLogIn } from "react-icons/cg";
 import styles from "./Login.module.css";
+import "../../style.css";
 
 function Login() {
   const navigate = useNavigate();
@@ -26,9 +26,8 @@ function Login() {
     setSubmitButtonDisabled(true);
     signInWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
-        setSubmitButtonDisabled(false);
-        
         navigate("/Storage");
+        setSubmitButtonDisabled(false);
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);
@@ -39,7 +38,6 @@ function Login() {
     <div className={styles.container}>
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Login</h1>
-
         <InputControl
           label="Email"
           type="email"
@@ -59,8 +57,9 @@ function Login() {
 
         <div className={styles.footer}>
           <b className={styles.error}>{errorMsg}</b>
-          <button disabled={submitButtonDisabled} onClick={handleSubmission}>
-            Login
+          <button variant="primary" disabled={submitButtonDisabled} onClick={handleSubmission}>
+            <CgLogIn />
+            &nbsp;Login
           </button>
         </div>
       </div>

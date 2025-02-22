@@ -13,6 +13,7 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import { TiCloudStorageOutline } from "react-icons/ti";
+import { GrBlog } from "react-icons/gr";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -103,7 +104,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-
+            <Nav.Item>
+              <Nav.Link
+                href="https://mahanyasak-blog.vercel.app/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <GrBlog style={{ marginBottom: "2px" }} />{" "}
+                Blog
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
